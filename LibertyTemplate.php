@@ -13,10 +13,29 @@ class LibertyTemplate extends BaseTemplate {
 
 		$this->html( 'headelement' );
 		?>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css' />
+		<!--<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>-->
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:300normal,300italic,400normal,400italic,700normal,700italic,900normal,900italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 		<header>
-		<div class="nav-wrapper navbar-fixed-top">
-			<?php $this->navMenu(); ?>
-		</div>
+			<div class="row">
+				<div class="header-brand col-sm-push-8">
+					<a class="navbar-brand" href="<?php echo Title::newMainPage()->getLocalURL(); ?>"></a>
+				</div>
+				<div class="header-menu col-sm-pull-8">
+					<div class="row-fluid">
+						<div class="header-top">
+							<div class="nav-wrapper">
+								<?php $this->navMenu(); ?>
+							</div>
+						</div>
+						<div class="header-bottom">
+
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</header>
 		<section>
 		<div class="content-wrapper">
@@ -109,7 +128,6 @@ class LibertyTemplate extends BaseTemplate {
 		$skin = $this->getSkin();
 		?>
 		<nav class="navbar navbar-dark">
-			<a class="navbar-brand" href="<?php echo Title::newMainPage()->getLocalURL(); ?>"></a>
 			<ul class="nav navbar-nav">
 				<li class="nav-item">
 					<?php echo Linker::linkKnown(

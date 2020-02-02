@@ -1,4 +1,4 @@
-/* Main Color #4188f1 */
+/* Main Color #f29200 */
 /* Border Color #e1e8ed */
 
 /* HTML Tag */
@@ -10,11 +10,11 @@ input:hover,
 button:hover,
 select:hover {
 	transition: 0.3s;
-	color: red;
 }
 
 html {
 	font-size: 15px;
+	color: #4a4a4a;
 }
 
 body {
@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Noto Sans KR', 'Noto Sans', 'Noto Sans CJK KR', 'Nanum Gothic', 'KoPub Dotum', 'Malgun Gothic', '맑은 고딕', sans-serif;
+	font-family: helvetica !important;
 	margin: 0;
 }
 
@@ -39,7 +39,7 @@ h4,
 h5,
 h6,
 b {
-	font-family: 'Noto Sans KR', 'Noto Sans', 'Noto Sans CJK KR', 'Nanum Gothic', 'KoPub Dotum', 'Malgun Gothic', '맑은 고딕', sans-serif;
+	font-family: helvetica !important;
 }
 
 input[type=password] {
@@ -195,14 +195,76 @@ strike {
 	border: 0;
 	border-radius: 0;
 }
-
-.Liberty .nav-wrapper .navbar .navbar-brand {
-	height: 2.8rem;
-	width: 6.6rem;
-	background: transparent url( ../img/logo.png ) no-repeat scroll left center/auto 1.9rem;
+.navbar-brand {
+	height: 6rem;
+	background: white url(/skins/Liberty/img/refwiki_logo.png?965b8) no-repeat scroll 5px center/auto 5.5rem;
 	padding: 0;
 	margin: 0;
 }
+header .row {
+	margin-left: 0;
+	margin-right: 0;
+}
+div.header-brand {
+	background: white;
+	height: 6rem;
+}
+div.header-menu {
+	height: 6rem;
+	background-color: #747474;
+}
+div.header-bottom {
+	min-height: 30px;
+}
+@media (min-width: 992px) {
+	.navbar-brand {
+		width: 23rem;
+	}
+	div.header-brand {
+		float:left;
+		width: 23rem;
+	}
+	div.header-menu {
+		float: left;
+		width: calc(100% - 23rem);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar-brand {
+		width: 100%;
+	}
+	div.header-brand {
+		width: 100%;
+	}
+	div.header-menu {
+		width: 100%;
+	}
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar-brand {
+		width: 100%;
+	}
+	div.header-brand {
+		width: 100%;
+	}
+	div.header-menu {
+		width: 100%;
+	}
+}
+@media (max-width: 575.98px) {
+	.navbar-brand {
+		width: 100%;
+	}
+	div.header-brand {
+		width: 100%;
+	}
+	div.header-menu {
+		width: 100%;
+	}
+}
+
+
 
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item {
 	margin: 0;
