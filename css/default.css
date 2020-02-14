@@ -277,13 +277,19 @@ div.header-bottom {
 
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link {
 	color: #fff;
-	font-size: 1rem;
+	font-size: 12px;
 	padding: 0.7rem 0.8rem;
 	line-height: 1.4rem;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	-ms-transition: opacity 0.5s ease-in-out;
+	-o-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:hover,
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:focus {
+	opacity: 0.62;
 	transition: 0.3s;
 }
 

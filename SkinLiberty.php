@@ -108,7 +108,7 @@ class SkinLiberty extends SkinTemplate {
 
 		.Liberty .nav-wrapper .navbar .form-inline .btn:hover,
 		.Liberty .nav-wrapper .navbar .form-inline .btn:focus {
-			border-color: #c2412e;
+			border-color: #f29200;
 		}
 
 		.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link.active::before,
@@ -122,7 +122,7 @@ class SkinLiberty extends SkinTemplate {
 		.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:hover,
 		.Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:focus,
 		.dropdown-menu .dropdown-item:hover {
-			background-color: #c2412e;
+			background-color: #f29200;
 		}" );
 
 		// 폰트 설정
