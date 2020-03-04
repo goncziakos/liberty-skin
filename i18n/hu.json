@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gönczi Ákos"
+		]
+	},
+	"skinname-liberty": "Liberty",
+	"liberty-desc": "Responsive skin for [https://librewiki.net/ LibreWiki]",
+	"liberty-facebook": "Facebook",
+	"liberty-feed-new": "[Új]",
+	"liberty-forgot-pw": "Elfelejtette a jelszavát?",
+	"liberty-login": "Bejelentkezés",
+	"liberty-login-alter": "Bejelentkezés más módszerrel",
+	"liberty-login-btn": "Bejelentkezés",
+	"liberty-info": "Info",
+	"liberty-purge": "Tisztítás",
+	"liberty-recent-discussions": "Legutóbbi beszélgetések",
+	"liberty-remember": "Ne felejtse el a bejelentkezést",
+	"liberty-tooltip-info": "A dokumentumok adatainak megtekintése",
+	"liberty-tooltip-purge": "Tisztítsa meg az oldal gyorsítótárát.",
+	"liberty-twitter": "Twitter",
+	"liberty-view-more": "Mutass többet",
+	"liberty-warning": "Figyelem",
+	"liberty-warning-text": "Írja be helyesen felhasználónevét és jelszavát.",
+	"liberty.css": "/ * Az itt elhelyezett CSS befolyásolja a Liberty skin felhasználóit * /",
+	"liberty.js": "/* Az itt található bármilyen JavaScript letöltésre kerül a Liberty skin felhasználásával rendelkező felhasználók számára */",
+	"prefs-liberty": "Liberty skin",
+	"prefs-color": "Színbeállítás",
+	"liberty-pref-color-main": "Fő szín",
+	"liberty-pref-color-main-help": "A weboldalon használt fő szín.",
+	"liberty-pref-color-second": "Másodlagos szín",
+	"liberty-pref-color-second-help": "Másodlagos szín, amelyet a webhelyen fognak használni.",
+	"prefs-font": "Előnyben részesítés betűkészlet",
+	"liberty-pref-fonts": "Válassza ki a használni kívánt betűtípust",
+	"liberty-pref-fonts-helplabel": "Segítség",
+	"liberty-pref-fonts-help": "A betűtípust a távoli helyre töltik be, kivéve a Malgun Malgun Gothic."
+}
